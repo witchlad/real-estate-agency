@@ -1,0 +1,815 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+textarea,
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+.input-checkbox {
+-webkit-appearance: none;
+} 
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+navbar {
+    display:flex;
+    flex-flow: row;
+    justify-content: space-around; 
+    margin-left:50px;
+}
+
+#toggle-btn{
+    display:none;
+    margin-bottom:-50px;
+    margin-top:50px;
+    margin-left:50px;
+    display: inline-block;
+    cursor: pointer;
+    background-color:transparent;
+    border: none;
+}
+
+.bar1, .bar2, .bar3 {
+ display:none;
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.navbar-logo{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-top:0px;
+}
+
+.navbar-list ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    margin-top:40px;
+}
+
+.navbar-list li {
+    display: inline;
+    font-size: 1rem;
+    padding:20px;
+}
+
+.navbar-list li:hover{
+    font-size: 1.1rem;
+    transition: 0.5s;
+    color:#ba0404;
+}
+
+
+.title-page{
+    background:url("./images/img1.jpg");
+    background-size:cover;
+    background-position: center;
+    filter: sepia(40%);
+    width:100%;
+    height:500px;
+    overflow:hidden;
+    opacity: 60%;
+    display:block;
+}
+
+.title-page-content{
+    text-align:center;
+    margin-top:-320px;
+    margin-bottom:100px;
+    color:#ba0404;
+    filter: brightness(100%);
+}
+
+
+.title-page-content h2{
+    margin-top:0px;
+    font-size: 1.7rem;
+}
+
+.title-page-content h1{
+    font-size: 4.2rem;
+    margin-top:-35px;
+    text-transform: uppercase;
+}
+
+.title-page-content h4{
+    width:600px;
+    margin:auto;
+    margin-top:-24px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size: .9rem;
+}
+.search-form{
+    padding:10px;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-20px;
+    background-color:#ba0404;
+    opacity: 80%;
+    -khtml-opacity: 0.8;
+    letter-spacing: 1px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    position:relative;
+    z-index:2;
+}
+
+form{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+
+}
+
+label{
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-weight:600;
+    color:white;
+    font-size: 0.7rem;
+}
+
+.search-opt{
+    padding:10px;
+}
+
+input,select {
+    padding:15px;
+    margin-top: 10px;
+}
+
+.find-btn {
+    width:30%;
+    font-size: 0.9rem;
+    height:50px;
+    margin-top: 37px;
+    color: white;
+    background-color: black;
+    border: black;
+    text-align:center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.welcome-page{
+    display:flex;
+    flex-flow:row;
+    margin-top:120px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(219,219,219,1) 100%);
+}
+
+.welcome-page-text *{
+    margin-left:100px;
+}
+
+.welcome-page-text h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.welcome-page-text h1{
+    font-size: 3.2rem;
+    margin-right:60px;
+    margin-top:-10px;
+}
+
+.welcome-page-text p{
+    text-align:justify;
+    letter-spacing: 1px;
+    margin-right:60px;
+    line-height: 1.6;
+}
+
+.welcome-page-photo img{
+    width:500px;
+    height:350px;
+    border: 10px solid white;
+    margin-top:50px;
+    margin-right:100px;
+}
+
+.properties-main button,
+.main-page-offer-main-details button,
+.button-testimonials,
+.main-page-newsletter button,
+.read-more-btn{
+    width:200px;
+    padding:15px;
+    margin-top:10px;
+    margin-bottom: 80px;
+    background-color:transparent;
+    border: 1px solid #ba0404;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: .9rem;
+}
+
+.properties-header{
+    text-align:center;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.properties-header h2{
+    margin-top:120px;
+    margin-bottom:30px;
+    font-weight:400;
+}
+
+.properties-header h1{
+    font-size: 3.2rem;
+    margin-top:-10px;
+}
+
+.properties-header h4{
+    font-weight:400;
+    letter-spacing: 1.4px;
+    margin-bottom: 90px;
+
+}
+
+.properties-main{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    text-align:Center;
+    margin-left: 40px;
+    margin-right: 40px;
+    letter-spacing: 1px;
+}
+
+.properties-main img:hover{
+    width:380px;
+    height:280px;
+    transition: 0.7s;
+}
+
+.properties-main img{
+    width:350px;
+    height:250px;
+    border: 10px solid #dbdbdb;
+}
+
+.properties-main li{
+    list-style:none;
+    text-transform: uppercase;
+}
+
+.properties-main h3 span{
+    font-size: 2.4rem;
+}
+
+.property-content *{
+    padding:5px;
+}
+
+.properties-main button{
+    color: white;
+    background-color:#ba0404;
+}
+
+.main-page-benefits-main i {
+    font-size:3.4rem;
+    color: #ba0404;
+}
+
+.main-page-benefits{
+    background-color:#f0f0f0;
+}
+
+.main-page-benefits-header{
+    text-align:center;
+    padding:30px;
+     margin-left:100px;
+    margin-right:100px;
+}
+
+.main-page-benefits h2{
+    font-weight:100;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.main-page-benefits h1{
+    font-size:3.2rem;
+    margin-top:10px;
+}
+
+.main-page-benefits-main{
+    display:flex;
+    flex-flow:row;
+    justify-content: space-around;
+    margin-left:100px;
+    margin-right:100px;
+    text-align:center;
+    margin-top:20px;
+}
+
+.main-page-benefits-icons{
+    margin-bottom:70px;
+}
+
+.main-page-offer{
+    background: rgb(240,191,191);
+    background: linear-gradient(309deg, rgba(240,191,191,1) 0%, rgba(186,4,4,1) 100%);
+    color:white;
+}
+
+.main-page-offer *{
+    letter-spacing: 1px;
+}
+
+.main-page-offer h1{
+    font-size: 3rem;
+}
+
+.main-page-offer p{
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size:1rem;
+    text-align:justify;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.main-page-offer h3{
+    font-weight:1;
+    margin-bottom:-10px;
+}
+
+.main-page-offer h2{
+    margin-top: 0px;
+    font-size:2rem;
+}
+
+.main-page-offer-header{
+    text-align:center;
+    padding:30px;
+}
+
+.main-page-offer-main{
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:20px;
+    display:flex;
+    flex-flow:row;
+    justify-content: space-between;
+}
+
+.main-page-offer img{
+    width:500px;
+    border: 10px solid white;
+}
+
+.main-page-offer-main-details p{
+    margin-left:50px;
+    margin-bottom:20px;
+    margin-right:auto;
+    text-align: justify;
+}
+
+.main-page-offer-main-details h2{
+    margin-left:50px;
+    margin-bottom: 10px;
+}
+
+.main-page-offer-main-details h1{
+    margin-top:20px;
+    margin-left:50px;
+    font-weight: 100;
+    font-size:1.4rem;
+}
+
+.main-page-offer-main-details span{
+    font-weight: 700;
+    font-size:2.7rem
+}
+
+.main-page-offer-main-details button{
+    margin-left:50px;
+    border:1px solid white;
+    color:white;
+}
+
+.main-page-location{
+    background: rgb(240,191,191);
+    background: linear-gradient(209deg, rgba(240,191,191,1) 0%, rgba(255,255,255,1) 33%);
+    color:black;
+    display:flex;
+    flex-flow:row;
+    justify-content: space-around;
+}
+
+.main-page-location-specifics-list{
+    display:flex;
+    flex-flow: row;
+}
+
+.main-page-location-specifics{
+    margin-left:100px;
+    margin-right:50px;
+}
+
+.main-page-location-specifics h1{
+    margin-top:30px;
+    margin-bottom: 0px;
+}
+
+.main-page-location-specifics h2{
+    margin-top:70px;
+    font-weight:100;
+    font-size:1.2rem;
+}
+
+.main-page-location-specifics h3{
+    font-weight: 100;
+    margin-bottom:20px;
+}
+
+.main-page-location-specifics span{
+    font-size:1.2rem;
+}
+
+.main-page-location-specifics-places{
+   margin-right:20px;
+}
+
+iframe{
+    width:600px;
+    margin-right:0px;
+}
+
+.main-page-newsletter{
+    display:flex;
+    flex-flow:row;
+    background-color:#f0f0f0;
+    padding:40px;
+    justify-content: space-around;
+}
+
+.main-page-newsletter h2{
+    margin-left:60px;
+    line-height: 1.5;
+    font-size: 2.4rem;
+}
+
+.main-page-newsletter span{
+    font-size:1.3rem;
+    text-transform: uppercase;
+}
+
+.main-page-newsletter input{
+    height:30px;
+    width:300px;
+    margin-top:50px;
+}
+
+.main-page-newsletter button{
+    margin-top:50px;
+    height:60px;
+    margin-right:100px;
+    background-color: #ba0404;
+    color: white;
+    margin-left:10px;
+}
+
+.main-page-info{
+    background-color:#282828;
+    display:flex;
+    flex-flow:row;
+    justify-content: space-around;
+    color:grey;
+    padding:40px;
+}
+
+.main-page-info-about{
+    margin-left:60px;
+    margin-right:50px;
+}
+
+.main-page-info h1{
+    font-size:3rem;
+    color: #ba0404;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.main-page-info-about p{
+    width:400px;
+}
+
+.main-page-info span{
+    color:white;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.main-page-info-posts a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-page-info-posts a:hover{
+    color: #ba0404;
+    transition: 0.5s;
+}
+
+.main-page-info-contact{
+    margin-right:100px;
+}
+
+.main-page-info-contact span{
+    margin-left:30px;
+}
+
+.main-page-info-contact i{
+    color: white;
+    font-size: 1.4rem;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.main-page-info-contact ul{
+    list-style:none;
+}
+
+footer{
+    padding:5px;
+    background-color:black;
+    color:grey;
+    display:flex;
+    flex-flow:row;
+    justify-content: space-around;
+}
+
+footer i{
+    margin-top:10px;
+    font-size: 1.4rem;
+    margin-left:20px;
+}
+
+footer i:hover{
+    color:#ba0404;
+    transition: 0.5s
+}
+
+@media only screen and (max-width: 992px) {   
+    .welcome-page{
+        display: flex;
+        flex-flow:column;
+    }
+    
+    navbar{
+        display:flex;
+        flex-flow:column;
+        text-align:center;  
+        margin-left:0px;
+    }
+    
+    .navbar-logo{
+        margin-top:50px;
+    }
+    
+    .bar1,.bar2,.bar3{
+        display:block;
+        margin-top:0px;
+    }
+    
+    .navbar-logo h1{
+        margin-top:10px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    #toggle-btn{
+        display:block;
+        margin-top:0px;
+    }
+    
+    .navbar-list li{
+        display:block;
+        padding:15px;
+    }
+     
+    .navbar-list ul{
+        display:flex;
+        flex-flow:column;
+        margin-top:0px;
+        margin-bottom:20px;
+        padding:0px;
+
+    }
+    .navbar-list{
+        height:0px;
+        overflow:hidden;
+        transition:all 1s;
+    }
+    .opened{
+        height:300px;
+        overflow:hidden;
+        transition:all 1s;
+    }
+    
+    .welcome-page-photo{
+        margin-bottom:50px;
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
+    }
+    
+    .welcome-page-photo img{
+        margin-right:0px;
+    }
+    
+    
+    .search-form{
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    .find-btn{
+        width:30%;
+    }
+    
+    .main-page-benefits-main{
+        display:flex;
+        flex-flow:column wrap;
+    }
+    
+    .main-page-offer-main {
+        display:flex;
+        flex-flow:column;
+        justify-content: space-around;
+        text-align:center;
+    }
+    
+    .main-page-offer-main-details h2,
+    .main-page-offer-main-details h1,
+    .main-page-offer-main-details p{
+        margin-left:0px;
+    }
+    
+    .main-page-offer-main-details span{
+        margin-left: 0px;
+    }
+    
+    .main-page-offer-main-details button{
+        margin-left:0px;
+    }
+    
+    .main-page-offer-main img{
+        margin-left:0px;
+        margin-right:0px;
+        margin-bottom:50px;
+        width:100%;
+    }
+    
+    .main-page-location {
+        display:flex;
+        flex-flow: column;
+        text-align:center;
+    }
+    
+    .main-page-location-map{
+        margin-bottom:0px;
+    }
+    
+    .main-page-location-specifics{
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    .main-page-location-specifics-list{
+    display:flex;
+    flex-flow: column;
+    margin-bottom:50px;
+    }
+    
+    .main-page-newsletter{
+        display:flex;
+        flex-flow:column;
+        text-align:center;
+    }
+    
+    .main-page-newsletter h2{
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .main-page-newsletter *{
+        margin-left:auto;
+        margin-right:auto;
+    }
+      
+    .main-page-newsletter input{
+        text-align:center;
+        margin-top: 0px;
+    }
+    
+    .main-page-newsletter button{
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:10px;
+    }
+    
+    .main-page-info{
+        display:flex;
+        flex-flow:column;
+    }
+    
+    .main-page-info *{
+        margin-left: 0px;
+    }
+    
+    .main-page-info-about p{
+        width:100%;
+        text-align: justify;
+    }
+    
+    .main-page-info-posts{
+        margin-top:30px;
+    }
+    
+    .main-page-info-contact{
+        margin-top:50px;
+    }
+    
+    .main-page-info-contact span{
+        margin-left: 0px;
+    }
+    
+    .main-page-info-contact li{
+        margin-left: -34px;
+    }
+    
+    .main-page-info-contact i{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+    body{
+    }
+    .title-page-content h4{
+        width:100%;
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    form{
+        display:flex;
+        flex-flow: column;
+        margin-left:0px;
+        text-align:center;
+    }  
+    
+    input,select{
+        width:100%;
+    }
+    
+    iframe{
+        width:100%;
+    }
+    
+    input{
+        padding:0px;
+        height:40px;
+        text-align:center;
+    }
+    
+    .search-form{
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    .find-btn{
+        margin-left:auto;
+        margin-right:auto;
+        width:100%;
+    }
+    
+    .welcome-page-photo img{
+        margin-right:0px;
+    }
+    .main-page-newsletter input{
+        height:50px;
+    }
+}

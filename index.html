@@ -1,0 +1,243 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet"> 
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body>
+        <navbar>
+            <div class="navbar-logo">
+                <button id="toggle-btn">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                 </button>
+                <h1> flatmo </h1>
+            </div>
+            <div class="navbar-list" id="navbar-list-content">    
+                <ul>
+                    <a href="#title"><li> home </li></a>
+                    <a href="#about"><li> about us </li></a>
+                    <a href="#properties"><li> properties </li></a>
+                    <a href="#offer"><li> offer </li></a>
+                    <a href="#location"><li> location </li></a>
+                    <a href="#contact"><li> contact </li></a>
+                </ul>
+            </div>
+        </navbar>
+        
+        <div class="title-page" id="title"></div>
+            <div class="title-page-content" id="title-content">
+                <h2> Welcome to </h2><br/>
+                <h1> flatmo</h1>
+                <h4> We're the nations leading real estate agency providing sustainable properties all over the city of Cracow </h4>
+            </div>
+        <div class="search-form">
+            <form>
+                <div class = "search-opt">
+                    <label> District </label><br/>
+                    <select id="district" name="distric-list">
+                        <option value="stare-miast">Stare Miasto </option>
+                        <option value="grzegorzki">Grzegórzki</option>
+                        <option value="pradnik-czerwony">Prądnik Czerwony </option>
+                        <option value="pradnik-bialy">Prądnik Biały </option>
+                        <option value="krowodrza">Krowodrza </option>
+                        <option value="bronowicec">Bronowice</option>
+                        <option value="zwierzyniec">Zwierzyniec </option>
+                        <option value="dębniki">Dębniki </option>
+                        <option value="łagiewniki">Łagiewniki </option>
+                        <option value="podgorze">Podgórze </option>
+                        <option value="czyzyny">Czyżyny </option>
+                        <option value="nowa-huta">Nowa Huta </option>
+                    </select>
+                </div>
+                <div class = "search-opt">
+                    <label> Property Type </label><br/>
+                    <select id="property" name="property-type">
+                        <option value="studio"> Studio </option>
+                        <option value="two-room"> Two Room</option>
+                        <option value="more-room"> +Two Rooms </option>
+                        <option value="single-house"> Single Pile </option>
+                        <option value="multi-house"> Double Pile </option>
+                    </select>
+                </div>
+                <div class = "search-opt">
+                    <label> Amenities </label><br/>
+                    <input type="text" name="amenities" placeholder="Jacuzzi"/>
+                </div>
+                <button class="find-btn"> find your property </button>
+            </form>
+        </div>
+        
+        <div class="welcome-page" id="about">
+            <div class="welcome-page-text">
+                <h2> Welcome to the </h2><br/>
+                <h1> Best Real Estate Agency in Cracow </h1>
+                <p> Flatmo is a full-service, luxury real estate brokerage and lifestyle company representing clients worldwide in a broad spectrum of classes, including residential, new development, resort real estate, residential leasing and luxury vacation rentals. Since our inception in 2017, we have redefined the business of real estate, modernizing and advancing the industry by fostering a culture of partnership, in which all clients and listings are represented by our agents.</p>
+                <button class="read-more-btn"> Read More </button>
+            </div>
+            <div class="welcome-page-photo">
+                <img src ="/images/img2.jpg" alt="man walking in front of building">
+            </div>
+        </div>
+        
+        <div class="properties" id="properties">
+            <div class="properties-header">
+                <h2> Selected by our Agents </h2>
+                <h1> Featured Properties </h1>
+                <h4> Flatmo owns over 50 places in Cracow elegantly furnished with air conditioning and many more things, that will assess your needs </h4>
+            </div>
+            <div class="properties-main">
+                <div class="property-1">
+                    <img src="/images/img3.jpg" alt="stored house with garden lights">
+                    <div class="property-content">
+                        <h3> Komandosów 5, Podgórze </h3>
+                        <h3><span> 5000zł</span> /month </h3>
+                        <ul>
+                            <li><span>&#183;</span> 2 bedrooms </li>
+                            <li><span>&#183;</span> 2 bathrooms </li>
+                            <li><span>&#183;</span> Patio </li>
+                        </ul>
+                        <button class="read-more-btn"> Read More </button>
+                    </div>
+                </div>
+                <div class="property-2">
+                    <img src="/images/img4.jpg" alt="living room in flat with sofa">
+                    <div class="property-content">
+                        <h3> Królewska 55, Krowodrza </h3>
+                        <h3><span> 3000zł</span> /month </h3>
+                        <ul>
+                            <li><span>&#183;</span> 1 bedroom </li>
+                            <li><span>&#183;</span> 1 bathroom </li>
+                            <li><span>&#183;</span> Balcony </li>
+                        </ul>
+                        <button class="read-more-btn"> Read More </button>
+                    </div>
+                </div>
+                <div class="property-3">
+                    <img src="/images/img5.jpg" alt="side of big stored house with door to garden">
+                    <div class="property-content">
+                        <h3> Plac Centralny 2, Nowa Huta </h3>
+                        <h3><span> 6000zł</span> /month </h3>
+                        <ul>
+                            <li><span>&#183;</span> 3 bedrooms </li>
+                            <li><span>&#183;</span> 2 bathrooms </li>
+                            <li><span>&#183;</span> Pool </li>
+                        </ul>
+                        <button class="read-more-btn"> Read More </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-page-benefits">
+            <div class="main-page-benefits-header">
+                <h2> Just a fest reasons to choose </h2>
+                <h1> The Flatmo as Your Real Estate Agency </h1>
+            </div>
+            <div class="main-page-benefits-main">
+                <div class="main-page-benefits-icons">
+                    <i class="fas fa-wifi"></i>
+                    <h2> Free Wifi </h2>
+                </div>
+                <div class="main-page-benefits-icons">
+                    <i class="fas fa-key"></i>
+                    <h2> Protected Properties </h2>
+                </div>
+                <div class="main-page-benefits-icons">
+                    <i class="fas fa-car"></i>
+                    <h2> Garages & Parking </h2>
+                </div>
+                <div class="main-page-benefits-icons">
+                    <i class="far fa-clock"></i>
+                    <h2>Avalible for<br/> Long-term Rental</h2>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-page-offer" id="offer">
+            <div class="main-page-offer-header">
+                <h3> A Little extra... </h3>
+                <h1> Featured Offer </h1>
+                <p>Our agency offers a variety of additional services to our clients, from discounts on furniture and household materials to some special deals from our partners. Below is one of the most popular offers from us. </p>
+            </div>
+            <div class="main-page-offer-main">
+                <div class="main-page-offer-main-img">
+                    <img src="images/img6.jpg" alt="hand holding keys in front of house">
+                </div>
+                <div class="main-page-offer-main-details">
+                    <h2> Rent a New Apartment <br/>Get FREE Furniture</h2>
+                    <p>That's correct! We're so determined to make your experience at our properties better that we will even provide you with free furniture from the store of your choice!</p>
+                    <h2> Prices Starts at </h2>
+                    <h1><span> 1000zł</span> /month </h1>
+                    <button> Rent now </button>
+                </div>
+        </div>
+        </div>
+        
+        <div class="main-page-location" id="location">
+            <div class="main-page-location-specifics">
+                <h2>Location and map </h2>
+                <h1>Driving Directions</h1>
+                <h3>Follow the 14th street and then turn right.</h3>
+                <div class="main-page-location-specifics-list">
+                <div class="main-page-location-specifics-places">
+                    <h1> 1.2km </h1>
+                    <span> Away from <br/> Kazimierz </span>
+                </div>
+                <div class="main-page-location-specifics-places">
+                    <h1> 2km </h1>
+                    <span> Away from <br/>Main Station </span>
+                </div>
+                <div class="main-page-location-specifics-places">
+                    <h1> 10km </h1>
+                    <span> Away from <br/>Airport</span>
+                </div>
+                </div>
+            </div>
+            <div class="main-page-location-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.302456067845!2d19.93456721567359!3d50.06189707942368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b120455da67%3A0xc3c7f5071b750d33!2zUnluZWsgR8WCw7N3bnk!5e0!3m2!1spl!2spl!4v1603556508306!5m2!1spl!2spl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>    
+        </div>
+        
+        <div class="main-page-newsletter">
+            <h2> Sing up for a Newsletter...<br/><span>and never miss our special offers and news!</span></h2>
+            <input type="text" name="email" placeholder="Enter your e-mail"/>
+            <button class="subscribe-btn"> Subscribe </button>
+        </div>
+        
+        <div class="main-page-info" id="contact">
+            <div class="main-page-info-about">
+                <h1> Flatmo </h1>
+                <p>Flatmo is a unique real estate agency located in Cracow. We strive to find the perfect homes for a variety of clients, including those who just moved to our city. If you're looking to buy, sell, or rent a residential property and don’t want to waste your money, look no further than Flatmo Real Estate Agency! </p>
+            </div>
+            <div class="main-page-info-posts">
+                <span> Recent Posts </span>
+                <p>  by Calvin Fitzgerald - Jan. 12 - 3 comments </p><br/>
+                <a href=""> Miller Residences Unveils First Seven Homes in Valley Village </a><br/>
+                <p>  by Calvin Fitzgerald - Jan. 12 - 3 comments </p><br/>
+                <a href=""> Miller Residences Unveils First Seven Homes in Valley Village </a>   
+            </div>
+            <div class="main-page-info-contact">
+                <span> Contacts </span>
+                <ul>
+                    <li><i class="fas fa-map-pin"> </i> Rynek Główny 2, Kraków</li>
+                    <li><i class="fas fa-phone-square-alt"></i> Contact us directly at: +48 123-456-789</li>
+                    <li><i class="far fa-envelope-open"></i> example@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="footer-rights">
+                <p>© Flatmo 2020. All Right Reserved. <span>Privacy Policy</span> </p>
+            </div>
+            <div class="footer-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+        </footer>
+        <script src="index.js"></script>
+  </body>
+</html>
