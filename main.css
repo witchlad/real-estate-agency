@@ -5,14 +5,6 @@ html, body {
     scroll-behavior: smooth;
 }
 
-textarea,
-input.text,
-input[type="text"],
-input[type="button"],
-input[type="submit"],
-.input-checkbox {
--webkit-appearance: none;
-} 
 
 a {
     text-decoration: none;
@@ -29,7 +21,7 @@ navbar {
 #toggle-btn{
     display:none;
     margin-bottom:-50px;
-    margin-top:50px;
+    margin-top:0px;
     margin-left:50px;
     display: inline-block;
     cursor: pointer;
@@ -38,7 +30,7 @@ navbar {
 }
 
 .bar1, .bar2, .bar3 {
- display:none;
+  display:none;
   width: 35px;
   height: 5px;
   background-color: #333;
@@ -49,7 +41,7 @@ navbar {
 .navbar-logo{
     font-size: 1.1rem;
     text-transform: uppercase;
-    margin-top:0px;
+    margin-top:-20px;
 }
 
 .navbar-list ul {
@@ -694,7 +686,6 @@ footer i:hover{
         text-align:center;
     }
     
-    .main-page-offer-main-details button
     .main-page-offer-main-details span,
     .main-page-offer-main-details h2,
     .main-page-offer-main-details h1,
