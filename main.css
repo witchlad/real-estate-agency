@@ -667,11 +667,17 @@ footer i:hover{
     .main-page-offer *{
         margin-left:50px;
         margin-right:50px;
+        text-align:center;
     }
     
+    .main-page-offer h1,
+    .main-page-offer h2,
+    .main-page-offer h3,
     .main-page-offer p{
-        margin:0px;
+        margin-left:0px;
+        margin-right:0px;
     }
+
     
     .main-page-benefits-main{
         display:flex;
