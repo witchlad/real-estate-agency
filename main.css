@@ -570,8 +570,9 @@ footer i:hover{
         margin-right:100px;
     }
     
-    .welcome-page-photo{
-        margin:0px;
+    .welcome-page-photo img{
+        margin-left:auto;
+        margin-right:auto;
         margin-bottom:50px;
     }
 
