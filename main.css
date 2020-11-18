@@ -705,6 +705,11 @@ footer i:hover{
     .main-page-offer-main-details span{
         margin-right:0px;
     }
+    
+    .main-page-offer-main-details button{
+        margin-right:0px;
+        margin-left:0px;
+    }
 
     
     .main-page-offer-main img{
