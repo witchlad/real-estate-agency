@@ -167,6 +167,8 @@ input,select {
     display:flex;
     flex-flow:row;
     margin-top:120px;
+    margin-left:auto;
+    margin-right:auto;
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(219,219,219,1) 100%);
 }
@@ -183,23 +185,20 @@ input,select {
 
 .welcome-page-text h1{
     font-size: 3.2rem;
-    margin-right:60px;
     margin-top:-10px;
 }
 
 .welcome-page-text p{
     text-align:justify;
     letter-spacing: 1px;
-    margin-right:60px;
     line-height: 1.6;
+    margin-right:30px;
 }
 
 .welcome-page-photo img{
-    width:500px;
-    height:350px;
+    width:90%;
     border: 10px solid white;
     margin-top:50px;
-    margin-right:100px;
 }
 
 .properties-main button,
@@ -569,11 +568,24 @@ footer i:hover{
     transition: 0.5s
 }
 
-@media only screen and (max-width: 992px) {   
+@media (max-width:1200px){
     .welcome-page{
         display: flex;
         flex-flow:column;
     }
+    
+    .welcome-page p{
+        margin-right:100px;
+    }
+    
+    .welcome-page-photo{
+        margin-left:100px;
+        margin-right:100px;
+    }
+}
+
+@media  (max-width: 992px) {   
+    
     
     navbar{
         display:flex;
