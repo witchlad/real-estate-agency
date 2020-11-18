@@ -666,6 +666,12 @@ footer i:hover{
         width:30%;
     }
     
+    main-page-benefits-header{
+        margin-left:50px;
+        margin-right:50px;
+        text-align:center;
+    }
+    
     .main-page-benefits-main{
         display:flex;
         flex-flow:column wrap;
