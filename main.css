@@ -188,7 +188,7 @@ input,select {
 }
 
 .welcome-page-photo img{
-    width:90%;
+    width:100%;
     border: 10px solid white;
     margin-top:50px;
 }
@@ -574,6 +574,7 @@ footer i:hover{
         margin-left:auto;
         margin-right:auto;
         margin-bottom:50px;
+        width:90%;
     }
 
 }
