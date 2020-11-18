@@ -343,6 +343,7 @@ input,select {
     font-size:1rem;
     margin-left:100px;
     margin-right:100px;
+    text-align:justify;
 }
 
 .main-page-offer h3{
@@ -378,7 +379,7 @@ input,select {
     margin-left:50px;
     margin-bottom:20px;
     margin-right:auto;
-    text-align: justify;
+    text-align:justify;
 }
 
 .main-page-offer-main-details h2{
@@ -693,6 +694,8 @@ footer i:hover{
         text-align:center;
     }
     
+    .main-page-offer-main-details button
+    .main-page-offer-main-details span,
     .main-page-offer-main-details h2,
     .main-page-offer-main-details h1,
     .main-page-offer-main-details p{
@@ -700,12 +703,9 @@ footer i:hover{
     }
     
     .main-page-offer-main-details span{
-        margin-left: 0px;
+        margin-right:0px;
     }
-    
-    .main-page-offer-main-details button{
-        margin-left:0px;
-    }
+
     
     .main-page-offer-main img{
         margin-left:0px;
