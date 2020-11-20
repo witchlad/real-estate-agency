@@ -626,7 +626,7 @@ footer i:hover{
         transition:all 1s;
     }
     .opened{
-        height:300px;
+        height:50vh;
         overflow:hidden;
         transition:all 1s;
     }
