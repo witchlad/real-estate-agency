@@ -22,11 +22,12 @@ navbar {
     display:none;
     margin-bottom:-50px;
     margin-top:0px;
-    margin-left:50px;
+    margin-left:30px;
     display: inline-block;
     cursor: pointer;
     background-color:transparent;
     border: none;
+    cursor: pointer;
 }
 
 .bar1, .bar2, .bar3 {
