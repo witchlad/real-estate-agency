@@ -21,8 +21,8 @@ navbar {
 #toggle-btn{
     display:none;
     margin-bottom:-50px;
-    margin-top:0px;
-    margin-left:30px;
+    margin-top:50px;
+    margin-left:50px;
     display: inline-block;
     cursor: pointer;
     background-color:transparent;
@@ -30,7 +30,7 @@ navbar {
 }
 
 .bar1, .bar2, .bar3 {
-  display:none;
+ display:none;
   width: 35px;
   height: 5px;
   background-color: #333;
@@ -41,7 +41,7 @@ navbar {
 .navbar-logo{
     font-size: 1.1rem;
     text-transform: uppercase;
-    margin-top:-20px;
+    margin-top:0px;
 }
 
 .navbar-list ul {
@@ -159,8 +159,6 @@ input,select {
     display:flex;
     flex-flow:row;
     margin-top:120px;
-    margin-left:auto;
-    margin-right:auto;
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(219,219,219,1) 100%);
 }
@@ -177,20 +175,23 @@ input,select {
 
 .welcome-page-text h1{
     font-size: 3.2rem;
+    margin-right:60px;
     margin-top:-10px;
 }
 
 .welcome-page-text p{
     text-align:justify;
     letter-spacing: 1px;
+    margin-right:60px;
     line-height: 1.6;
-    margin-right:30px;
 }
 
 .welcome-page-photo img{
-    width:100%;
+    width:500px;
+    height:350px;
     border: 10px solid white;
     margin-top:50px;
+    margin-right:100px;
 }
 
 .properties-main button,
@@ -333,9 +334,9 @@ input,select {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size:1rem;
+    text-align:justify;
     margin-left:100px;
     margin-right:100px;
-    text-align:justify;
 }
 
 .main-page-offer h3{
@@ -371,7 +372,7 @@ input,select {
     margin-left:50px;
     margin-bottom:20px;
     margin-right:auto;
-    text-align:justify;
+    text-align: justify;
 }
 
 .main-page-offer-main-details h2{
@@ -560,26 +561,12 @@ footer i:hover{
     transition: 0.5s
 }
 
-@media (max-width:1200px){
+@media only screen and (max-width: 992px) {   
     .welcome-page{
         display: flex;
         flex-flow:column;
     }
     
-    .welcome-page p{
-        margin-right:100px;
-    }
-    
-    .welcome-page-photo img{
-        margin-left:auto;
-        margin-right:auto;
-        margin-bottom:50px;
-        width:90%;
-    }
-
-}
-
-@media  (max-width: 992px) {   
     navbar{
         display:flex;
         flex-flow:column;
@@ -626,28 +613,22 @@ footer i:hover{
         transition:all 1s;
     }
     .opened{
-        height:50vh;
+        height:300px;
         overflow:hidden;
         transition:all 1s;
     }
     
-    .welcome-page *{
-        margin-left:50px;
-        margin-right:50px;
-        text-align:center;
+    .welcome-page-photo{
+        margin-bottom:50px;
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
     }
     
-    .welcome-page h1,
-    .welcome-page h2{
-        text-align:left;
-        margin:0px;
+    .welcome-page-photo img{
+        margin-right:0px;
     }
     
-    .welcome-page p {
-        margin:50px 0px;
-        text-align:justify;
-    }
-
     
     .search-form{
         margin-left:auto;
@@ -656,24 +637,6 @@ footer i:hover{
     
     .find-btn{
         width:30%;
-    }
-    
-    .main-page-offer *{
-        margin-left:40px;
-        margin-right:40px;
-        text-align:center;
-    }
-    
-    .main-page-offer h1,
-    .main-page-offer h2,
-    .main-page-offer h3,
-    .main-page-offer p{
-        margin-left:0px;
-        margin-right:0px;
-    }
-
-    .main-page-offer img{
-        width:70%;
     }
     
     .main-page-benefits-main{
@@ -688,7 +651,6 @@ footer i:hover{
         text-align:center;
     }
     
-    .main-page-offer-main-details span,
     .main-page-offer-main-details h2,
     .main-page-offer-main-details h1,
     .main-page-offer-main-details p{
@@ -696,14 +658,12 @@ footer i:hover{
     }
     
     .main-page-offer-main-details span{
-        margin-right:0px;
+        margin-left: 0px;
     }
     
     .main-page-offer-main-details button{
-        margin-right:0px;
         margin-left:0px;
     }
-
     
     .main-page-offer-main img{
         margin-left:0px;
@@ -797,12 +757,13 @@ footer i:hover{
     
 }
 
-@media (max-width: 600px){
-    
+@media only screen and (max-width: 600px){
+    body{
+    }
     .title-page-content h4{
-        width:90%;
+        width:100%;
         margin-left:auto;
-        margin-right:auto;
+        margin-right: auto;
     }
 
     form{
@@ -837,22 +798,10 @@ footer i:hover{
         width:100%;
     }
     
+    .welcome-page-photo img{
+        margin-right:0px;
+    }
     .main-page-newsletter input{
         height:50px;
     }
-    
-    .properties-header{
-    text-align:center;
-    margin-left:50px;
-    margin-right:50px;
-}
-    .properties-header p{
-        text-align:justify;
-    }
-     .main-page-benefits-header{
-        margin-left:50px;
-        margin-right:50px;
-        text-align:center;
-    }
-    
 }
