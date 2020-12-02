@@ -41,13 +41,13 @@ navbar {
 .navbar-logo{
     font-size: 1.1rem;
     text-transform: uppercase;
-    margin-top:0px;
+    margin-top:-50px;
 }
 
 .navbar-list ul {
     list-style-type: none;
     text-transform: uppercase;
-    margin-top:40px;
+    margin-top:50px;
 }
 
 .navbar-list li {
@@ -404,7 +404,7 @@ input,select {
     color:black;
     display:flex;
     flex-flow:row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .main-page-location-specifics-list{
@@ -413,7 +413,7 @@ input,select {
 }
 
 .main-page-location-specifics{
-    margin-left:100px;
+    margin-left:200px;
     margin-right:50px;
 }
 
