@@ -14,7 +14,7 @@ a {
 navbar {
     display:flex;
     flex-flow: row;
-    justify-content: space-around; 
+    justify-content: space-around;
     margin-left:50px;
 }
 
@@ -561,44 +561,44 @@ footer i:hover{
     transition: 0.5s
 }
 
-@media only screen and (max-width: 992px) {   
+@media only screen and (max-width: 992px) {
     .welcome-page{
         display: flex;
         flex-flow:column;
     }
-    
+
     navbar{
         display:flex;
         flex-flow:column;
-        text-align:center;  
+        text-align:center;
         margin-left:0px;
     }
-    
+
     .navbar-logo{
         margin-top:50px;
     }
-    
+
     .bar1,.bar2,.bar3{
         display:block;
         margin-top:0px;
     }
-    
+
     .navbar-logo h1{
         margin-top:10px;
         margin-left:auto;
         margin-right:auto;
     }
-    
+
     #toggle-btn{
         display:block;
         margin-top:0px;
     }
-    
+
     .navbar-list li{
         display:block;
         padding:15px;
     }
-     
+
     .navbar-list ul{
         display:flex;
         flex-flow:column;
@@ -617,88 +617,88 @@ footer i:hover{
         overflow:hidden;
         transition:all 1s;
     }
-    
+
     .welcome-page-photo{
         margin-bottom:50px;
         margin-left:auto;
         margin-right:auto;
         text-align: center;
     }
-    
+
     .welcome-page-photo img{
         margin-right:0px;
     }
-    
-    
+
+
     .search-form{
         margin-left:auto;
         margin-right:auto;
     }
-    
+
     .find-btn{
         width:30%;
     }
-    
+
     .main-page-benefits-main{
         display:flex;
         flex-flow:column wrap;
     }
-    
+
     .main-page-offer-main {
         display:flex;
         flex-flow:column;
         justify-content: space-around;
         text-align:center;
     }
-    
+
     .main-page-offer-main-details h2,
     .main-page-offer-main-details h1,
     .main-page-offer-main-details p{
         margin-left:0px;
     }
-    
+
     .main-page-offer-main-details span{
         margin-left: 0px;
     }
-    
+
     .main-page-offer-main-details button{
         margin-left:0px;
     }
-    
+
     .main-page-offer-main img{
         margin-left:0px;
         margin-right:0px;
         margin-bottom:50px;
         width:100%;
     }
-    
+
     .main-page-location {
         display:flex;
         flex-flow: column;
         text-align:center;
     }
-    
+
     .main-page-location-map{
         margin-bottom:0px;
     }
-    
+
     .main-page-location-specifics{
         margin-left:auto;
         margin-right:auto;
     }
-    
+
     .main-page-location-specifics-list{
     display:flex;
     flex-flow: column;
     margin-bottom:50px;
     }
-    
+
     .main-page-newsletter{
         display:flex;
         flex-flow:column;
         text-align:center;
     }
-    
+
     .main-page-newsletter h2{
         margin-left:auto;
         margin-right:auto;
@@ -708,53 +708,53 @@ footer i:hover{
         margin-left:auto;
         margin-right:auto;
     }
-      
+
     .main-page-newsletter input{
         text-align:center;
         margin-top: 0px;
     }
-    
+
     .main-page-newsletter button{
         margin-left:auto;
         margin-right:auto;
         margin-top:10px;
     }
-    
+
     .main-page-info{
         display:flex;
         flex-flow:column;
     }
-    
+
     .main-page-info *{
         margin-left: 0px;
     }
-    
+
     .main-page-info-about p{
         width:100%;
         text-align: justify;
     }
-    
+
     .main-page-info-posts{
         margin-top:30px;
     }
-    
+
     .main-page-info-contact{
         margin-top:50px;
     }
-    
+
     .main-page-info-contact span{
         margin-left: 0px;
     }
-    
+
     .main-page-info-contact li{
         margin-left: -34px;
     }
-    
+
     .main-page-info-contact i{
         margin-left: auto;
         margin-right: auto;
     }
-    
+
 }
 
 @media only screen and (max-width: 600px){
@@ -771,33 +771,33 @@ footer i:hover{
         flex-flow: column;
         margin-left:0px;
         text-align:center;
-    }  
-    
+    }
+
     input,select{
         width:100%;
     }
-    
+
     iframe{
         width:100%;
     }
-    
+
     input{
         padding:0px;
         height:40px;
         text-align:center;
     }
-    
+
     .search-form{
         margin-left:auto;
         margin-right:auto;
     }
-    
+
     .find-btn{
         margin-left:auto;
         margin-right:auto;
         width:100%;
     }
-    
+
     .welcome-page-photo img{
         margin-right:0px;
     }
